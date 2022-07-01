@@ -18,7 +18,7 @@ img {
     padding: 10px;
 }
 
-#caixa-principal{
+#caixa-principal {
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -28,28 +28,28 @@ img {
     padding-left: 30px;
 }
 
-.numeros{
-   font-weight: 900;
-   font-size: 50px;
+.numeros {
+    font-weight: 900;
+    font-size: 50px;
 }
 
-#numero-verde{
+#numero-verde {
     color: #c5fb01;
 }
 
-#numero-verde:active{
+#numero-verde:active {
     opacity: 0.2;
-    
+
 }
 
-.caixa-button{
+.caixa-button {
     text-align: center;
     margin-top: 20px;
 
 
 }
 
-.botoes{
+.botoes {
     font-size: 25px;
     color: #c5fb01;
     padding: 6px 16px;
@@ -59,43 +59,66 @@ img {
     margin-left: 5px;
 }
 
-.ativo{
+.ativo {
     opacity: 0.8;
 }
 
 
 
-.inativo{
+.inativo {
     opacity: 1;
 }
 
 
 
-#start:hover{
-    background:white;
-    color:#c5fb01;
-    box-shadow: inset 0 0 0 3px #c5fb01 ;
+#start:hover {
+    background: white;
+    color: #c5fb01;
+    box-shadow: inset 0 0 0 3px #c5fb01;
 
 }
 
 
 
 
-#stop:hover{
-    background:white;
-    color:#c5fb01;
-    box-shadow: inset 0 0 0 3px #c5fb01 ;
+#stop:hover {
+    background: white;
+    color: #c5fb01;
+    box-shadow: inset 0 0 0 3px #c5fb01;
 
 }
 
-#reset:hover{
-    background:white;
-    color:#c5fb01;
-    box-shadow: inset 0 0 0 3px #c5fb01 ;
+#reset:hover {
+    background: white;
+    color: #c5fb01;
+    box-shadow: inset 0 0 0 3px #c5fb01;
 
 }
 
-#reset:active{
+#reset:active {
     opacity: 0.8;
-    
+
+}
+
+@media screen and (max-width:700px) {
+    img {
+        padding: 40px;
+        margin-top: 70%;
+    }
+
+
+    #caixa-principal {
+        margin-left: 160px;
+        margin-top: 10px;
+    }
+
+    .caixa-button {
+
+        margin-top: 20px;
+        padding-left: 100px;
+        display: inline-flex;
+        margin-left: 75px
+    }
+
+
 }
